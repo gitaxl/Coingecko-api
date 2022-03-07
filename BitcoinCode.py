@@ -41,35 +41,5 @@ bearOrBull()
 #print(a['prices'][0][1], a['prices'][-1])
 
 
-#d.getPriceRange(1642774737,1642861137)
-#print(d.getRange(1642774737,1642861137))
 
-''''
-OLD SHIT THAT WORKS
-a = cg.get_coin_market_chart_range_by_id(id='bitcoin', vs_currency='eur', from_timestamp=1642774737, to_timestamp=1642861137)
-range1 = a['prices']
-length = len(range1)
-i = 0
-
-for i in range(length):
-    print(range1[i])
-    i += 10
-   
-
-#startDate = input("Input start date in form 'DD-MM-YYYY': ")
-#endDate = input("Input end date in form 'DD-MM-YYYY': ")
-#print(cg.get_coin_market_chart_range_by_id(id='bitcoin', vs_currency='eur', from_timestamp='01-01-2021', to_timestamp='02-01-2022'))
-
-#a = cg.get_coin_history_by_id(id='bitcoin', date = startDate)
-#b = cg.get_coin_history_by_id(id='bitcoin', date = endDate)
-
-#def bearOrBull():
- #   print(a['market_data']['current_price']['eur'] - b['market_data']['current_price']['eur'] )
-  #  if a['market_data']['current_price']['eur'] - b['market_data']['current_price']['eur'] < 0:
-   #     print('BEAR')
-    #else:
-     #   print('BULL!')
-        
-#bearOrBull()
-'''
 
